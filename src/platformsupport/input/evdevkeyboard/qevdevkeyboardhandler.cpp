@@ -492,7 +492,7 @@ void QEvdevKeyboardHandler::unloadKeymap()
     quint16 ledbits[1];
     memset(ledbits, 0, sizeof(ledbits));
     if (::ioctl(m_fd.get(), EVIOCGLED(sizeof(ledbits)), ledbits) < 0) {
-        qWarning("evdevkeyboard: Failed to query led states");
+        //qWarning("evdevkeyboard: Failed to query led states");
         switchLed(LED_NUML,false);
         switchLed(LED_CAPSL, false);
         switchLed(LED_SCROLLL,false);
