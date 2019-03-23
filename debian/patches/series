@@ -4,6 +4,7 @@ qt5-qtbase-5.9.1-openssl11.patch
 dbustray_newmenu_signal.diff
 extend_mariadb_define_check.diff
 fix-loading-OpenGL-when-symlink-missing.patch
+qprintdialog_duplex.diff
 
 # Debian specific.
 gnukfreebsd.diff
