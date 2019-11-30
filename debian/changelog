@@ -1,3 +1,9 @@
+qtbase-opensource-src (5.9.5+dfsg-0ubuntu2.4bb1) bionic; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Sat, 30 Nov 2019 04:24:41 +0100
+
 qtbase-opensource-src (5.9.5+dfsg-0ubuntu2.4) bionic; urgency=medium
 
   * Fix default paper size in the print dialog (LP: #1846821).
